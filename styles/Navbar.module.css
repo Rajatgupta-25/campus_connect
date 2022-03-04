@@ -1,0 +1,47 @@
+.nav-container {
+  display: flex;
+  flex-flow: row wrap;
+  background: rgb(34, 45, 61);
+  height: 4.2rem;
+}
+.nav-item {
+  margin-left: 12rem;
+  margin-top: 0.5rem;
+}
+.nav-link {
+  margin-left: 10rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+.nav-user {
+  margin-left: 10rem;
+  margin-top: -0.4rem;
+}
+.icon {
+  margin-left: 3rem;
+  font-size: 22px;
+  cursor: pointer;
+  color: rgb(243, 242, 242);
+}
+.icon:hover {
+  color: white;
+}
+.nav-logo {
+  border-radius: 50%;
+}
+.search-box {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  padding-left: 40px;
+  height: 2rem;
+  width: 18rem;
+  border-radius: 4px;
+  border: 1px solid grey;
+  background: url("../public/assets/searchImage.png") no-repeat 3px 5px,
+    rgb(243, 242, 242);
+  background-size: 28px 20px;
+  border: 1px solid rgb(174, 181, 187);
+  outline: none;
+  color: rgb(80, 81, 82);
+}

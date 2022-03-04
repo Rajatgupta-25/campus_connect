@@ -1,0 +1,56 @@
+.container {
+  padding-left: 2rem;
+  margin-left: 12rem;
+  padding-right: 2rem;
+  margin-top: 4rem;
+  width: 50%;
+  padding-bottom: 2rem;
+  background: white;
+  border: 1px solid rgb(235, 233, 236);
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgb(203, 202, 204), -1px -1px 8px rgb(203, 202, 204);
+}
+
+.container-header {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 39vw;
+}
+
+.event-card {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 1rem;
+}
+
+.event-card-title {
+  margin-left: 2rem;
+  margin-top: -1rem;
+}
+
+.event-card-title p {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(58, 58, 58);
+}
+
+.event-card-title .description {
+  font-size: 12px;
+  margin-top: -1rem;
+  color: rgb(128, 126, 129);
+  font-weight: 400;
+}
+
+.event-card-title .platform {
+  font-size: 11px;
+  margin-top: -0.5rem;
+  font-weight: 500;
+  color: rgb(51, 52, 53);
+}
+
+.division {
+  width: 90%;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}

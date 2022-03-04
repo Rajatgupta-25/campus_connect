@@ -1,0 +1,34 @@
+.container {
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  width: 17rem;
+}
+
+.container-item {
+  background: white;
+  margin-top: 1rem;
+  border: 1px solid rgb(235, 233, 236);
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgb(203, 202, 204), -1px -1px 8px rgb(203, 202, 204);
+}
+
+.event-list {
+  margin-top: 1rem;
+}
+
+.event-list p {
+  margin-top: 0rem;
+  margin-left: 1rem;
+  color: rgb(146, 144, 144);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.event-list .guide:hover {
+  color: rgba(83, 113, 156, 1);
+}
+
+.event-list p span {
+  margin-right: 1rem;
+}

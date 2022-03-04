@@ -1,0 +1,94 @@
+.container {
+  margin-top: 1.5rem;
+  width: 15rem;
+  position: sticky;
+  top: 0;
+}
+.container .container-item {
+  border-radius: 5px;
+}
+.profile {
+  text-align: center;
+  margin-top: -2.5rem;
+}
+.user-name {
+  color: rgba(83, 113, 156, 1);
+  font-size: 14px;
+  font-weight: 600;
+}
+.user-institute {
+  color: rgb(146, 144, 144);
+  font-size: 12px;
+}
+.profile-image {
+  border-radius: 50px;
+}
+.profile-back {
+  background: rgb(70, 111, 145);
+  background: linear-gradient(
+    270deg,
+    rgba(70, 111, 145, 1) 0%,
+    rgba(120, 134, 156, 1) 15%,
+    rgba(168, 177, 196, 0.9699230033810399) 50%,
+    rgba(218, 221, 226, 0.9671218829328606) 86%,
+    rgba(208, 214, 225, 1) 100%
+  );
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  height: 80px;
+}
+.collections p {
+  margin-left: 1rem;
+  color: rgb(146, 144, 144);
+  font-size: 12px;
+  font-weight: 600;
+}
+.collections p:hover {
+  cursor: pointer;
+}
+.collections span {
+  margin-right: 1rem;
+}
+.entity .entity-heading p {
+  margin-left: 0.8rem;
+  color: rgba(75, 74, 74, 0.733);
+  font-size: 13px;
+  font-weight: 600;
+}
+.entity p {
+  margin-left: 1rem;
+  color: rgb(146, 144, 144);
+  font-size: 12px;
+  font-weight: 600;
+}
+.entity p:hover {
+  color: rgba(83, 113, 156, 1);
+  cursor: pointer;
+}
+.entity span {
+  margin-right: 1rem;
+}
+.profile-top {
+  border-bottom: 1px solid rgb(241, 239, 239);
+}
+.collections {
+  border-bottom: 1px solid rgb(241, 239, 239);
+}
+.entity {
+  border-bottom: 1px solid rgb(241, 239, 239);
+}
+
+.profile-container {
+  background: white;
+  border: 1px solid rgb(235, 233, 236);
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgb(203, 202, 204), -1px -1px 8px rgb(203, 202, 204);
+}
+
+.recent-activity {
+  background: white;
+  margin-top: 1rem;
+  border: 1px solid rgb(235, 233, 236);
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgb(203, 202, 204), -1px -1px 8px rgb(203, 202, 204);
+}
