@@ -20,7 +20,6 @@ const PersonalInfo = () => {
                             <p><span className="fas fa-award"></span> My Events</p>
                             <p><span className="fas fa-archive"></span> My Collections</p>
                             <p><span className="fas fa-users"></span> My Teams</p>
-                            <p><span className="fas fa-code"></span> My Projects</p>
                             <p><span className="fas fa-bezier-curve"></span> My Connections</p>
                         </div>
                     </div>

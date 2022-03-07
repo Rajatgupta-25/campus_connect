@@ -1,8 +1,13 @@
 import Image from "next/image"
 import styles from "../../styles/Post.module.css"
 import { Images } from "../Images"
+import { useState } from "react"
+import CreatePostModal from "./CreatePostModal"
 
-const Post = () => {
+const Post = ({ setModalOpen }) => {
+
+    const [isClicked, setIsClicked] = useState(false)
+    const [closed, setClosed] = useState(false)
 
     const displayPosts = () => {
         let post = []
@@ -61,7 +66,10 @@ const Post = () => {
                         <div className={styles["profile"]}>
                             <Image className={styles["profile-pic"]} src={Images.profile} width={50} height={50} />
                         </div>
-                        <div className={styles["create-post-link"]} onClick={() => setLgShow(true)} >
+                        <div className={styles["create-post-link"]} onClick={() => {
+                            setIsClicked(true),
+                                setModalOpen(true)
+                        }}>
                             <p>What's in your mind, Rebekeh?</p>
                         </div>
                     </div>
@@ -84,6 +92,18 @@ const Post = () => {
                     {displayPosts()}
                 </div>
             </div>
+            <div className={styles["show-create-post"]}>
+                {
+                    isClicked && !closed && <CreatePostModal setClosed={setClosed} />
+                }
+            </div>
+            {
+                isClicked && closed && (
+                    setIsClicked(false),
+                    setClosed(false),
+                    setModalOpen(false)
+                )
+            }
         </>
     )
 }

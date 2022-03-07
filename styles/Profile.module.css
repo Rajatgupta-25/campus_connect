@@ -4,3 +4,7 @@
   flex-flow: row wrap;
   background: rgb(243, 242, 242);
 }
+
+.modal-open {
+  opacity: 0.9;
+}

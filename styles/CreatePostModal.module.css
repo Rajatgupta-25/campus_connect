@@ -1,0 +1,126 @@
+.post-container {
+  width: 40%;
+  background: white;
+  height: 42%;
+  position: fixed;
+  top: 15%;
+  z-index: 1;
+  padding: 2%;
+  opacity: 1;
+  box-shadow: 1px 1px 8px rgb(203, 202, 204), -1px -1px 8px rgb(203, 202, 204);
+}
+
+.post-item {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.close-container {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  color: rgb(146, 144, 144);
+}
+.close-button {
+  transform: rotate(43deg);
+  cursor: pointer;
+}
+
+.user-name p {
+  color: rgb(80, 79, 79);
+  font-weight: 600;
+  margin-top: 5px;
+  margin-left: 1rem;
+}
+
+.content textarea {
+  margin-top: 1rem;
+  outline: none;
+  resize: none;
+  border-color: rgb(215, 212, 218);
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(61, 60, 60);
+}
+
+.add-files {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 0.5rem;
+}
+
+.files {
+  margin-left: 2.2rem;
+}
+
+.image {
+  color: rgb(98, 121, 155);
+}
+
+.files p span {
+  margin-right: 0.4rem;
+}
+
+.video {
+  color: rgb(112, 197, 90);
+}
+.location {
+  color: rgb(206, 39, 39);
+}
+
+.files p {
+  color: rgb(132, 131, 133);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+.files p:hover {
+  color: rgb(26, 43, 70);
+}
+
+.post-button {
+  padding: 4px;
+  width: 5rem;
+  background: white;
+  color: rgb(26, 43, 70);
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 500;
+  border: 1px solid rgb(154, 171, 199);
+  border-bottom-color: rgb(154, 171, 199);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8rem;
+  margin-top: 0.5rem;
+  box-shadow: 1px 1px 8px rgb(203, 202, 204), -1px -1px 8px rgb(203, 202, 204);
+}
+
+.post-button:hover {
+  color: white;
+  background: linear-gradient(
+    270deg,
+    rgba(50, 106, 153, 1) 0%,
+    rgba(50, 83, 135, 1) 15%,
+    rgba(77, 128, 173, 1) 96%,
+    rgba(88, 127, 173, 1) 100%
+  );
+}
+
+.add-tag {
+  margin-left: 5rem;
+  margin-top: 0.5rem;
+}
+
+.add-tag input {
+  padding: 5px;
+  padding-left: 10px;
+  caret-color: rgb(26, 43, 70);
+  color: rgb(29, 58, 104);
+  border: 1px solid rgb(185, 183, 187);
+  border-radius: 5px;
+  outline: none;
+}

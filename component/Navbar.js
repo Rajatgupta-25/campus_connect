@@ -13,7 +13,7 @@ const Navbar = () => {
                 <input type="text" className={styles["search-box"]} placeholder="Search for institutes, connections..." />
                 <div className={styles["nav-link"]}>
                     <div className={styles["icon"]}>
-                        <Link href="#"><i className="fas fa-house-user"></i></Link>
+                        <Link href="/profile"><i className="fas fa-house-user"></i></Link>
                     </div>
                     <div className={styles["icon"]}>
                         <Link href="#" ><i className="fas fa-users"></i></Link>

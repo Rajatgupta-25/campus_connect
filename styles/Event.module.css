@@ -1,4 +1,9 @@
-.container {
+.container-event {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2vw;
+}
+.container-event-item {
   padding-left: 2rem;
   margin-left: 12rem;
   padding-right: 2rem;
@@ -14,7 +19,7 @@
 .container-header {
   display: flex;
   flex-flow: row wrap;
-  gap: 39vw;
+  gap: 38vw;
 }
 
 .event-card {
@@ -53,4 +58,52 @@
   margin-left: 2rem;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+}
+
+.create {
+  cursor: pointer;
+  font-size: 28px;
+  margin-top: 10px;
+  color: rgb(65, 87, 148);
+}
+
+.suggestion {
+  margin-top: 4rem;
+}
+
+.container-item {
+  background: white;
+  border: 1px solid rgb(235, 233, 236);
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgb(203, 202, 204), -1px -1px 8px rgb(203, 202, 204);
+}
+
+.event-list {
+  margin-top: 1rem;
+}
+
+.event-list p {
+  margin-top: 0rem;
+  margin-left: 1rem;
+  color: rgb(146, 144, 144);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.event-list .guide:hover {
+  color: rgba(83, 113, 156, 1);
+}
+
+.event-list p span {
+  margin-right: 1rem;
+}
+
+.event-list .see-more {
+  color: rgb(97, 128, 170);
+}
+
+.event-list .see-more:hover {
+  color: rgb(65, 87, 148);
+  text-decoration: underline;
 }
